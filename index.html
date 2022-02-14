@@ -16,8 +16,10 @@
 </head>
 
 <body>
-    <div class="navbar">
-        <div class="left-nav-services">
+    <script src="script.js"></script>
+    <div class="navbar ">
+        <div class="left-nav-services responsive">
+
         </div>
         <div class="right-nav-services">
             <div class="right-services service-1">About</div>
@@ -26,10 +28,21 @@
             <div class="right-services service-4">Contact</div>
             <div class="right-services service-5">Subscribe</div>
         </div>
-        <i class="menu-icon fa-solid fa-bars"></i>
+        <div class="menu-icon">
+            <i class="fa-solid fa-bars" onclick="isNav()"></i>
+        </div>
+        
     </div>
     <div class="logo">
         <img src="./images/Logo.png" height="100px" width="100px" alt="">
+    </div>
+
+    <div id="right-nav-responsive" style="display: none;">
+        <div class="right-services service-1">About</div>
+        <div class="right-services service-2">Services</div>
+        <div class="right-services service-3">Meeting</div>
+        <div class="right-services service-4">Contact</div>
+        <div class="right-services service-5">Subscribe</div>
     </div>
 
     <div class="slider-section">
@@ -76,7 +89,6 @@
                 culpa sit excepturi repudiandae ipsam perspiciatis quia.
             </div>
         </div>
-
     </div>
 
 </body>
