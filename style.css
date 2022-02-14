@@ -131,6 +131,7 @@
         flex-direction: column;
     }
     .lawyer{
+        margin-top: 12rem;
         width: 40vw;
         height: 50vh;
     }
@@ -168,6 +169,9 @@
     }
     .menu-icon{
         display: block;
+    }
+    .lawyer{
+
     }
 }
 @media (max-width: 500px){
