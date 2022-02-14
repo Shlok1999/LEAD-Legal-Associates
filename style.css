@@ -5,6 +5,7 @@
     padding: 0;
     font-family: 'Montserrat', sans-serif;
 }
+body{}
 .navbar{
     height: 5rem;
     background: #DEEEF1;
@@ -17,13 +18,17 @@
     height: 3rem;
     width: 4rem;
     margin-right: 2rem;
-    background-color: #8fd6e2;
+    background: url("Logo.png");
+    background-size: cover;
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 .logo{
-    font-size: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    display: none;
 }
 .right-nav-services{
     height: 3rem;
@@ -48,9 +53,11 @@
     display: none;
 }
 .slider-section{
-    margin-top: 2rem;
+    margin-top: 0.1rem;
     min-height: 60vh;
-    background-color: aliceblue;
+    background-color: #DEEEF1;
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 7rem;
 }
 .slider-heading{
@@ -77,69 +84,56 @@
     color: white;
     cursor: pointer;
 }
+
+
+/* Info Section */
+.info-section{
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.lawyer{
+    width: 20vw;
+    height: 50vh;
+    margin-top: 2rem;
+    background-color: aqua;
+    justify-content: space-around;
+}
+.image{
+    height: 20vh;
+    background-color: #DEEEF1;
+}
+
+
 @media (max-width: 1250px){
+    .logo{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
     .left-nav-services{
         margin-right: 10rem;
+        display: none;
     }
     .right-nav-services{
         display: none;
     }
     .menu-icon{
         display: block;
-        cursor: pointer;
     }
+    .info-section{
+        display: flex;
+        flex-direction: column;
+    }
+    .lawyer{
+        width: 40vw;
+        height: 50vh;
+    }
+
     
 }
 
-/* Info Section */
-.info-section{
-    margin-top: 1rem;
-    height: 50vh;
-    background-color: aliceblue;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-.lawyer{
-    display: flex;
-    flex-direction: column;
-    height: 50vh;
-    width: 20vw;
-    align-items: center;
-    justify-content: space-around;
-}
-.image{
-    height: 10rem;
-    width: 10rem;
-    border: 1px solid black;
-    border-radius: 50%;
-    background: url("lawyer.jpg");
-    background-position: center;
-    background-size: cover;
-}
-.info{
-    display: flex;
-    font-weight: 700;
-    text-align: jus;
-    justify-content: space-around;
-    padding: 2px;
-
-}
-@media(max-width: 750px){
-    .info-section{
-        height: auto;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-    }
-    .lawyer{
-        margin-top: 2rem;
-        height: 30vh;
-        width: 50vw;
-        margin-top: 2rem;
-        margin-bottom: 1rem;
-    }
-}
 
 
 
