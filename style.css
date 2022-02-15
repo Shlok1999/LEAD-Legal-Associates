@@ -193,6 +193,14 @@ a{
     color: black;
 }
 
+/* Footer section */
+.footer-section{
+    background-color: #b4eaf3;
+    height: 10vh;
+    width: 100vw;
+    margin-top: 100vh;
+}
+
 
 
 
