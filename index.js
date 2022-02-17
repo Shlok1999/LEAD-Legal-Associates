@@ -1,6 +1,7 @@
 const express = require('express')
+require("dotenv").config()
 const app = express()
-const port = process.env.PORT || 3020
+let port = process.env.PORT || 3020
 
 //Middleware
 const path = '/home/oem/Desktop/LEAD/public'
@@ -22,6 +23,6 @@ app.get("/subscribe", (req, res)=>{
     res.send("Subscribe")
 })
 
-app.listen(PORT, ()=>{
-    console.log(`http://localhost:${PORT}`)
+app.listen(port, ()=>{
+    console.log(`http://localhost:${port}`)
 })
