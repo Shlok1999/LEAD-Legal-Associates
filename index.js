@@ -4,8 +4,9 @@ const app = express()
 let port = process.env.PORT || 3020
 
 //Middleware
-const path = '/home/oem/Desktop/LEAD/public'
-app.use(express.static(path))
+const path = require('path')
+const staticPath = path.join(__dirname, './public')
+app.use(express.static(staticPath))
 
 app.get("/", (req, res)=>{
     res.send("Home Page")
