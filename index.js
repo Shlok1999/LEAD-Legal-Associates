@@ -8,19 +8,19 @@ const path = '/home/oem/Desktop/LEAD/public'
 app.use(express.static(path))
 
 app.get("/", (req, res)=>{
-    res.sendfile("Home Page")
+    res.send("Home Page")
 })
 app.get("/about", (req, res)=>{
-    res.sendfile("About")
+    res.send("About")
 })
 app.get("/services", (req, res)=>{
-    res.sendfile("Services")
+    res.send("Services")
 })
 app.get("/contact", (req, res)=>{
-    res.sendfile("Contact")
+    res.send("Contact")
 })
 app.get("/subscribe", (req, res)=>{
-    res.sendfile("Subscribe")
+    res.send("Subscribe")
 })
 
 app.listen(port, ()=>{
