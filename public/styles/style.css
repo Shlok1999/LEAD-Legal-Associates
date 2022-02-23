@@ -29,22 +29,7 @@
     align-items: center;
     justify-content: space-around;
 }
-/* .motto{
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: 10vw;
-    height: 5vh;
-    /* width: 40vw; */
-    /* background-color: #e0994e; */
- */
-/* .motto > div{
-    background-color: transparent;
-    cursor: pointer;
-}
-.motto > div:hover{
-    background-color: #fcb558;
-    transition: 0.5s ease;
-} */
+
 .corporate, .litigation, .advisory{
     margin-left: 1vh;
     font-weight: 600;
