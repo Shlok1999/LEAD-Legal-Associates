@@ -27,13 +27,23 @@
 .motto-section{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    /* justify-content: space-around; */
 }
 .motto{
-    margin-left: 20vw;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10vw;
     height: 5vh;
     width: 40vw;
     background-color: #e0994e;
+}
+.motto > div{
+    background-color: transparent;
+    cursor: pointer;
+}
+.motto > div:hover{
+    background-color: #fcb558;
+    transition: 0.5s ease;
 }
 .corporate, .litigation, .advisory{
     margin-left: 1vh;
@@ -57,7 +67,7 @@
     align-items: center;
 }
 .right-nav-responsive{
-    display: no;
+    display: none;
 }
 .right-services{
     height: 2rem;
@@ -106,30 +116,6 @@
     color: white;
     cursor: pointer;
 }
-
-.team-section{
-    /* min-height: 50vh; */
-
-}
-.team-mates{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-}
-.team-mates > div{
-    background-color: #e0994e;
-    width: 300px;
-    min-height: 50vh;
-    margin: 10px;
-    text-align: center;
-    line-height: 50px;
-    font-size: 30px;
-}
-
-
-
-
 .footer{
     height: 30vh;
     background-color: #7b3f00;
@@ -156,14 +142,6 @@
         align-items: center;
         z-index: 1;
     }
-    /* .lawyer{
-        width: 80vw;
-    }
-    .image{
-        width: 100% ;
-        height: 50vh;
-    } */
-    
     .slider-section{
         padding-left: 0.5rem;
     }

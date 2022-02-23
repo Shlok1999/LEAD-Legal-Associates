@@ -23,7 +23,6 @@ app.get("/contact", (req, res)=>{
 app.get("/subscribe", (req, res)=>{
     res.send("Subscribe")
 })
-
 app.listen(port, ()=>{
     console.log(`http://localhost:${port}`)
 })
