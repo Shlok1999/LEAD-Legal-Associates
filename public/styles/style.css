@@ -69,7 +69,22 @@
     display: none;
     cursor: pointer;
 }
+.dropdown-elements{
+    margin-top: 1rem;
+    background-color: white;
+    /* margin-top: 1rem; */
+    display: none;
+}
+
+.service-2:hover .dropdown-elements{
+    display: block;
+}
+.dropdown-elements:hover{
+    background-color: #81582b;
+}
+
 .slider-section{
+    background: url("../images/justice-2.jpg");
     margin-top: 0.1rem;
     min-height: 60vh;
     background-color: #DEEEF1;
@@ -92,7 +107,8 @@
     margin-top: 2.5rem;
     height: 3rem;
     width: 9rem;
-    background-color: green;
+    border: 2px solid green;
+    background-color: rgba(0,255,0,0.1);
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -100,6 +116,10 @@
     font-weight: 700;
     color: white;
     cursor: pointer;
+}
+.button:hover{
+    background-color: green;
+    transition: 0.25s ease;
 }
 .footer{
     height: 10vh;
@@ -169,6 +189,25 @@
 a{
     text-decoration: none;
     color: black;
+}
+
+/* Planning Section */
+.planning-section{
+    min-height: 100vh;
+}
+.card-section{
+    margin: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.card{
+    height: 250px;
+    width: 200px;
+    border-radius: 2rem;
+    background-color: #e0994e;
+    margin: 2rem;
 }
 
 

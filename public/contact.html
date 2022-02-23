@@ -43,6 +43,34 @@
         <div class="right-services service-4"><a href="/contact.html">Contact</a></div>
         <div class="right-services service-5"><a href="/subscribe.html">Subscribe</a></div>
     </div>
+    <style>
+        .contact-section{
+            margin-top: 2rem;
+            height: calc(100vh - 10vh - 10vh);
+        }
+        .contact-form{
+           width: 40vw;
+           border: 1px solid black;
+           margin-left: calc(50% - 20vw);
+           margin-bottom: 2rem;
+        }
+    </style>
+
+    <div class="contact-section">
+        <div class="contact-form">
+            <form action="#" style="display: flex; flex-direction: column; color: rgb(99, 80, 80); align-items: center;">
+                <label for="email-id">Email</label>
+                <input type="email" name="email" id="email" required><br><br><br>
+                <label for="email-id">Name</label>
+                <input type="text" name="name" id="name" required><br><br><br>
+                <button type="submit" onsubmit="function getmail(e){
+                    e.preventDefault()
+                    alert('You will receive a mail in 10 seconds')
+                }" >Submit</button>
+            </form>
+        </div>
+    </div>
+    
 
     <footer class="footer">
 
