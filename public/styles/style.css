@@ -34,7 +34,7 @@
     flex-wrap: wrap;
     margin-left: 10vw;
     height: 5vh;
-    width: 40vw;
+    /* width: 40vw; */
     background-color: #e0994e;
 }
 .motto > div{
