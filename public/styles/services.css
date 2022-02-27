@@ -1,0 +1,16 @@
+.services{
+    display: flex;
+    flex-direction: column;
+    margin: 5rem;
+}
+.service-bulletpoint{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.service-bullet-left>div{
+    margin-top: 1rem;
+}
+.service-bullet-right>div{
+    margin-top: 1rem;
+}

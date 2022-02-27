@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,7 +13,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
     <title>Document</title>
     <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/services.css">
 </head>
+
 <body>
     <script src="./js/script.js"></script>
 
@@ -22,7 +25,16 @@
         <div class="right-nav-services">
             <div class="right-services service-3"><a href="/index.html">Home</a></div>
             <div class="right-services service-1"><a href="/about.html">About</a></div>
-            <div class="right-services service-2"><a href="/services.html">Services</a></div>
+            <div class="right-services service-2">
+                <a href="/services.html">Services</a>
+                <div class="dropdown" style=" display: flex; flex-wrap: wrap; background-color: white;">
+                    <a class="dropdown-elements" href="/services.html" style="font-size: 20px;">Family Law</a>
+                    <a class="dropdown-elements" href="/services.html" style="font-size: 20px;">GST services</a>
+                    <a class="dropdown-elements" href="/services.html" style="font-size: 20px;">Financial Planning</a>
+                    <a class="dropdown-elements" href="/services.html" style="font-size: 20px;">More Services</a>
+                </div>
+
+            </div>
             <div class="right-services service-4"><a href="/contact.html">Contact</a></div>
             <div class="right-services service-5"><a href="/subscribe.html">Subscribe</a></div>
         </div>
@@ -43,9 +55,32 @@
         <div class="right-services service-5"><a href="/subscribe.html">Subscribe</a></div>
     </div>
 
+    <div class="services">
+        <div class="service-bulletpoint">
+            <div class="service-bullet-left">
+                    <div><a href="#">Family law-related Divorce and others</a></div>
+                    <div><a href="#">Banking & Finance Litigation</a></div>
+                    <div><a href="#">Bankruptcy Litigation</a></div>
+                    <div><a href="#">Construction Law & Litigation</a></div>
+                    <div><a href="#">Health care Law</a></div>
+            </div>
+            <div class="service-bullet-right">
+                    <div><a href="#">Medical Malpractices Defense</a></div>
+                    <div><a href="#">Municipal laws</a></div>
+                    <div><a href="#">Personal Defense Injuries &Family Disputes</a></div>
+                    <div><a href="#">Trust and Estate Litigation</a></div>
+                    <div><a href="#">PIL & Writs</a></div>
+            </div>
+        </div>
+        <hr>
+    </div>
+
+
+
 
     <footer class="footer">
 
     </footer>
 </body>
+
 </html>
