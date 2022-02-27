@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(255, 220, 175);
+}
+.contact-section{
+    margin-top: 2rem;
+    height: calc(100vh - 10vh - 10vh);
+}
+.contact-form{
+   width: 40vw;
+   height: calc(fit-content + 5rem);
+   margin-left: calc(50% - 20vw);
+   display: flex;
+   flex-direction: column;
+}
+input{
+    text-align: center;
+    margin: 1rem;
+    height: 2rem;
+}
+
+button{
+    margin-bottom: 2rem;
+    height: 2rem;
+    width: 5rem;
+    font-size: 20px;
+}
+@media (max-width: 500px){
+    .contact-form{
+    }
+}
+

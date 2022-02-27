@@ -11,9 +11,12 @@
 }
 .service-bullet-left>div{
     margin-top: 1rem;
+    font-weight: 800;
 }
 .service-bullet-right>div{
     margin-top: 1rem;
+    font-weight: 800;
+
 }
 .service-define{
     margin: 5rem;
